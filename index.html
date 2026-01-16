@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clinic Dose Reference</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; }
+    h1 { font-size: 1.4rem; }
+    input { width: 100%; padding: 0.5rem; font-size: 1rem; }
+    .row { border-top: 1px solid #ccc; padding: 0.5rem 0; font-size: 0.92rem; }
+    .drug { font-weight: 600; }
+    .note { color: #666; font-size: 0.82rem; }
+  </style>
+</head>
+<body>
+  <h1>💊 Clinic Dose Reference</h1>
+  <p class="note">Bedside quick-reference. Clinical lookup only — see disclaimer in README.</p>
+  <input id="q" type="search" placeholder="Search a drug or agent…" autocomplete="off" />
+  <div id="results"></div>
+  <script src="app.js"></script>
+</body>
+</html>

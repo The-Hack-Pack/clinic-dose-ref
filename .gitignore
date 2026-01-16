@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+
+# personal — keep off the published notebook
+notes/
+notes/private/
